@@ -4,5 +4,5 @@ import logging
 logging.basicConfig(stream=sys.stderr)
 sys.path.insert(0,"/var/www/webapp/")
 
-from webapp import app as application
+from webapp import application as application
 application.secret_key = 'mysecret'
